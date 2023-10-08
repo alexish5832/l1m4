@@ -22,8 +22,4 @@ async def heh(ctx, count_heh = 5):
 async def adios(ctx, count_adios = 5):
     await ctx.send("adios_amigo" * count_adios)
 
-@bot.command()
-async def do_you_love_me(ctx, count_do_you_love_me = 5):
-    await ctx.send("yes_i_do" * count_do_you_love_me)
-
 bot.run("MTE1ODAxOTQ2MTM3MTEzNDA5Mw.Gq1E5b.sSe7Aa0JDMYTbgn34BFZ3BNLb7OstTsIlhIiRY")
